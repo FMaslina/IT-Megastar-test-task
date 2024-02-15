@@ -1,2 +1,9 @@
 # IT-Megastar-test-task
-Test task for IT Megastar python developer vacancy
+<h2>Инициализация БД и запуск сервера</h2>
+<ol>
+<li>На запускаемой машине должна быть PostgreSQL база с именем test, и пользователем admin, с паролем admin</li>
+<li>Далее нужно установить зависимости из requirements.txt</li>
+<li>Первый запуск производится через команду "python manage.py runserver_init", инициализирующим базу, добавляющим в неё тестовые данные и запускающим сервер</li>
+<li>Последующие запуски производятся через стандартную команду "python manage.py runserver"</li>
+<li>Эндпоинт для получения автора и его книг: api/v1/writers/writer_id</li>
+</ol>
